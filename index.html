@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home_Page</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $('document').ready(function(){
+     $('#bodi').click(function(){
+$('#bodi').css("background-color", "gray");
+     });
+
+     $("#bald").on({
+  mouseover: function(){
+     $("#bald").animate({width:"120%"},1000)
+
+      },mouseout : function(){
+        $("#bald").animate({width:'100%'},1000)
+      }
+  
+     
+     });
+   
+     //jquery for second card
+     $("#bald2").on({
+  mouseover: function(){
+     $("#bald2").animate({width:"120%"},1000)
+
+      },mouseout : function(){
+        $("#bald2").animate({width:'100%'},1000)
+      }
+  
+     
+     });
+
+     //jquery for third card
+     $("#bald3").on({
+  mouseover: function(){
+     $("#bald3").animate({width:"120%"},1000)
+
+      },mouseout : function(){
+        $("#bald3").animate({width:'100%'},1000)
+      }
+  
+     
+     });
+
+      });
+    </script>
     <style>
 
 #photu {
@@ -36,7 +80,7 @@
      
 
   </head>
-  <body style="background-color:white;background-image: url('https://www.freepik.com/free-vector/border-frame-diwali-indian-mandala-design_13313434.htm#query=hindu%20religion%20background&position=24&from_view=keyword')"  >
+  <body id='bodi' style="background-color:white;background-image: url('https://www.freepik.com/free-vector/border-frame-diwali-indian-mandala-design_13313434.htm#query=hindu%20religion%20background&position=24&from_view=keyword')"  >
 
     
 <!--navigation start-->
@@ -127,10 +171,10 @@
       <div class="col" style="margin-Right:1rem">
         
         
-        <div class="card" style="width:18rem,">
-    <img src="nalanda_755x450.jpg" class="card-img-top" alt="..."/>
+        <div class="card" style="width:18rem">
+    <img src="nalanda-bihar_755x450.jpg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Nalanda University</h5>
+      <h5 class="card-title"><b id="bald">Nalanda University</b></h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      
      
@@ -147,7 +191,7 @@
         <div class="card" style="width: 18rem">
     <img src="mahavir_mandir_755x450.jpeg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Mahaveer Mandir</h5>
+      <h5 class="card-title"><b id="bald2">Mahaveer Mandir</b></h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="mahvir.html"  class="btn btn-primary">Know In Details</a>
       
@@ -159,9 +203,9 @@
       <div class="col" style="margin-Right:1rem">
       
         <div class="card" style="width: 18rem;">
-    <img src="Harmandir_Patna_755x450.jpg" class="card-img-top" alt="..."/>
+    <img src="Harmandir_Patna_755x450.jpg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Harmandir</h5>
+      <h5 class="card-title"><b id="bald3">Harmandir</b></h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="harmandir.html" class="btn btn-primary">Know In Details</a>
       <Outlet/>
@@ -179,7 +223,7 @@
         
         
         <div class="card" style="width:18rem;">
-    <img src="chatth_755x450.jpg" class="card-img-top" alt="..."/>
+    <img src="chatth_755x450.jpg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">chatth puja</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -210,7 +254,7 @@
       <div class="col" style="margin-Right:1rem">
       
         <div class="card" style="width: 18rem;">
-    <img src="gurpa_755x450.jpeg" class="card-img-top" alt="..."/>
+    <img src="gurpa_755x450.jpeg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Gurpa Hills</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
