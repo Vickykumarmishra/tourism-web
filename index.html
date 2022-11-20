@@ -68,6 +68,10 @@ $('#bodi').css("background-color", "gray");
       color:white; 
   }
   
+ .onmo{
+    background-color: #dd4b39;
+
+  }
     </style>
    
 
@@ -82,43 +86,48 @@ $('#bodi').css("background-color", "gray");
   </head>
   <body id='bodi' style="background-color:white;background-image: url('https://www.freepik.com/free-vector/border-frame-diwali-indian-mandala-design_13313434.htm#query=hindu%20religion%20background&position=24&from_view=keyword')"  >
 
+  
     
-<!--navigation start-->
+
+   <!--navigation start-->
    
 <nav id ="navig" class="navbar navbar-expand-lg" style="background-color:skyblue;" >
-    <div class="container-fluid">
-        
-
-      <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/components/navbar/"><img src="bihar tourism logo.png" style="background-color: white;" class="logo" width="45" height="45"></a>
+  <div class="container-fluid">
       
-      <!--brand ka photo aur uska link dalna hai upar vale line m-->
-      <a class="navbar-brand" href="#"><i><b>Bihar Tourism</b></i></a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-         
-          
-        </ul>
+    <a class="navbar-brand" href="https://getbootstrap.com/docs/5.2/components/navbar/"><img src="bihar tourism logo.png" style="background-color: white;" class="logo" width="45" height="45"></a>
+    
+    <!--brand ka photo aur uska link dalna hai upar vale line m-->
+    <a class="navbar-brand" href="#"><i><b>Bihar Tourism</b></i></a>
 
-
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
         
-        
-        <form class="d-flex" role="search">
-            <button  id="signin"  class="btn btn-outline-success" type="submit" style="margin-right: 2px;"><a href="index.html" style="color:white">Home</a></button>
-          </form>
+      </ul>
 
-        <form class="d-flex" role="search">
-          <button  id="buttn" class="btn btn-outline-success" type="submit" style="margin-right: 2px;"><a href="bihar tourism form.html" style="color:white">LogIn</a></button>
+
+      
+      
+      <form class="d-flex" role="search">
+          <button  id="signin"  class="btn btn-outline-success" type="submit" style="margin-right: 2px;"><a href="index.html" style="color:white">Home</a></button>
         </form>
-      </div>
-      
+
+      <form class="d-flex" role="search">
+        <button  id="buttn" class="btn btn-outline-success" type="submit" style="margin-right: 2px;"><a href="bihar tourism form.html" style="color:white">LogIn</a></button>
+      </form>
     </div>
-  </nav>
-   
-  <!--navigation ends , carouseel starts-->
+    
+  </div>
+</nav>
+ 
+<!--navigation ends , carouseel starts-->
+
+
+
   
 
  <!--carouseel starts-->
@@ -175,7 +184,7 @@ $('#bodi').css("background-color", "gray");
     <img src="nalanda-bihar_755x450.jpg" class="img-thumbnail" alt="..."/>
     <div class="card-body">
       <h5 class="card-title"><b id="bald">Nalanda University</b></h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p   onclick=onclick() class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
      
      
       <a href="nalanda.html" class="btn btn-primary">Know In Details</a>
@@ -268,136 +277,137 @@ $('#bodi').css("background-color", "gray");
   </div>
 
 
+  
 
 
-  <!--footer starts-->
+ <!--footer starts-->
 
   <!-- Remove the container if you want to extend the Footer to full width. -->
-<div  style='margin-top: 5px;'>
-  <!-- Footer -->
-  <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #929fba"
+  <div  style='margin-top: 5px;'>
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #929fba"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                <i>Bihar Tourism</i>
+              </h6>
+              <p>
+                From its bustling cities to tranquil wilderness, Bihar has something for everyone. Visit this culturally rich and diverse state of India.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Phagwara, Punjab, India</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+  
+              <!-- Facebook -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #3b5998"
+                 href="https://www.facebook.com/r.php?nis=8"
+                 role="button"
+                 ><i class='fa fa-facebook-f'></i
+                ></a>
+  
+                <!--class=fa fa-facebook-f is used to create facebook icon-->
+  
+              <!-- Twitter -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #55acee"
+                 href="https://twitter.com/i/flow/login"
+                 role="button"
+                 ><i class='fa fa-twitter'></i
+                ></a>
+  
+              <!-- Google -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #dd4b39"
+                 href="https://www.google.com/"
+                 role="button"
+                 ><i class="fa fa-google"></i
+                ></a>
+  
+              <!-- Instagram -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #ac2bac"
+                 href="https://www.instagram.com/accounts/login/"
+                 role="button"
+                 ><i class="fa fa-instagram"></i>
+                </a>
+  
+              <!-- Linkedin -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #0082ca"
+                 href="https://www.linkedin.com/login"
+                 role="button"
+                 ><i class="fa fa-linkedin"></i
+                ></a>
+              <!-- Github -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #333333"
+                 href="https://github.com/login"
+                 role="button"
+                 ><i class="fa fa-github"></i
+                ></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >tourism.bihar.gov.in</a
           >
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              <i>Bihar Tourism</i>
-            </h6>
-            <p>
-              From its bustling cities to tranquil wilderness, Bihar has something for everyone. Visit this culturally rich and diverse state of India.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-home mr-3"></i> Phagwara, Punjab, India</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
-
-            <!-- Facebook -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #3b5998"
-               href="https://www.facebook.com/r.php?nis=8"
-               role="button"
-               ><i class='fa fa-facebook-f'></i
-              ></a>
-
-              <!--class=fa fa-facebook-f is used to create facebook icon-->
-
-            <!-- Twitter -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #55acee"
-               href="https://twitter.com/i/flow/login"
-               role="button"
-               ><i class='fa fa-twitter'></i
-              ></a>
-
-            <!-- Google -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #dd4b39"
-               href="https://www.google.com/"
-               role="button"
-               ><i class="fa fa-google"></i
-              ></a>
-
-            <!-- Instagram -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #ac2bac"
-               href="https://www.instagram.com/accounts/login/"
-               role="button"
-               ><i class="fa fa-instagram"></i>
-              </a>
-
-            <!-- Linkedin -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #0082ca"
-               href="https://www.linkedin.com/login"
-               role="button"
-               ><i class="fa fa-linkedin"></i
-              ></a>
-            <!-- Github -->
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #333333"
-               href="https://github.com/login"
-               role="button"
-               ><i class="fa fa-github"></i
-              ></a>
-          </div>
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-         >tourism.bihar.gov.in</a
-        >
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-</div>
-<!-- End of .container -->
-
-<!--footer ends-->
-
-
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+  
+  <!--footer ends-->
+  
+  
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
