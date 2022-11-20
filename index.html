@@ -36,7 +36,7 @@ $('#bodi').css("background-color", "gray");
      });
 
      //jquery for third card
-     $("#bald3").on({
+   /*  $("#bald3").on({
   mouseover: function(){
      $("#bald3").animate({width:"120%"},1000)
 
@@ -47,7 +47,19 @@ $('#bodi').css("background-color", "gray");
      
      });
 
+      });*/
+    
+      $('card').hover(function(){
+
+        $(this).css({'background-color':'pink'});
+      },
+      function(){
+
+        $(this).css({'background-color':'white'});
       });
+
+    });
+
     </script>
     <style>
 
